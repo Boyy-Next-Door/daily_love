@@ -1,0 +1,10 @@
+<!--pages/demo-img/index.wxml-->
+<image src="" mode="aspectFill"/>
+<image src="/images/c3c8c22058b7b66365e0fa9f94d2485.jpg" mode="widthFix"/>
+<!-- 
+  scaleToFill --- 默认缩放  不保持长宽比例缩放以至于完全填满image元素
+  aspectFit --- 保持长宽比例缩放 使得图片的长边能够完整显示
+  aspectFill --- 保持长宽比例缩放 使得图片的短边能够完整显示
+  widthFix --- 宽度填满image 高度自动变化 保持原图长宽比
+  heightFix --- 高度填满image 宽度自动变化 保持原图长宽比
+ -->

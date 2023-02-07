@@ -1,0 +1,10 @@
+<!--pages/demo-btn/index.wxml-->
+<view class="container1">
+  <button type="default">默认按钮</button>
+  <button type="primary">主色调按钮</button>
+  <button type="warn">警告按钮</button>
+  <button type="default" size="mini">小尺寸按钮</button>
+  <button type="default"plain>镂空按钮</button>
+  <button type="primary"plain>镂空按钮</button>
+  <button type="warn"plain>镂空按钮</button>
+</view>

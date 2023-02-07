@@ -1,0 +1,8 @@
+<!--pages/demo-data/index.wxml-->
+<view class="myContainer">
+  <text>hello! {{name}}</text>
+  <!-- <image src="{{imgSrc}}" mode="aspectFit"/> -->
+  <button class="lightgreen" type="primary" bindtap="tapHandler" data-param="{{666}}">点我加1</button>
+  <view class="ball lightgreen">{{input}}</view>
+  <input type="text" bindinput="inputHandler" style="width: 100px; border-bottom: 2px solid lightgrey;"/>
+</view>
